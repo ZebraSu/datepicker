@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    color: #404040;
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+    color: #404040;
+}
+.custom-datepicker-warpper{
+    width:498px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    position: absolute;
+}
+.custom-datepicker-header{
+    height:50px;
+    line-height: 50px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    text-align: center;
+    background: #f0f0f0;
+}
+.custom-datepicker-header .custom-datepicker-icon{
+    display: inline-block;
+    width: 40px;
+}
+.custom-datepicker-header a{
+    display: inline-block;
+    padding: 0 8px;
+}
